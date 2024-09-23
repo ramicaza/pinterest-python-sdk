@@ -23,7 +23,7 @@ _IS_TEST_BUILD = os.environ.get("IS_TEST_BUILD", 0)
 REQUIRES = [
   "urllib3>=1.26.12,<3",
   "python-dateutil",
-  "python-dotenv==0.20.0",
+  "python-dotenv>=0.20.0",
   "six==1.16.0",
   "Pinterest-Generated-Client @ git+https://github.com/ramicaza/pinterest-python-generated-api-client"
 ]
